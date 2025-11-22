@@ -1,0 +1,57 @@
+:root {
+    --verde-oscuro: #006837ff;
+    --verde-claro: #8cc63fff;
+    --blanco: #eefcdcff;
+}
+
+body {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    font-family: "Sansation", sans-serif;
+}
+
+.navbar {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.navbar li {
+    font-family: "Sansation", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #000000cc;
+
+}
+
+.navbar img {
+width: 230px;
+}
+
+.hero-bg {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.4)), 
+        url(../img/hero01.webp);
+    background-size: cover;
+}
+
+.hero-bg h1 {
+    color: var(--blanco);
+    font-family: "Sansation", sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: 5px 5px 8px #000000cc, 2px 2px 3px #000000cc;
+}
+
+.hero-bg p {
+    color: var(--blanco);
+    font-family: "Sansation", sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+    text-shadow: 2px 2px 3px #000000cc, 5px 5px 8px #000000cc;
+}
