@@ -8,6 +8,7 @@ body {
     background-color: var(--verde-oscuro);
     color: var(--blanco);
     font-family: "Sansation", sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar {
